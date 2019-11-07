@@ -7,11 +7,11 @@ Test Repo
     - Set up Git
 * [ 1. Online Repository ]( #online-repository )
 * [ 2. Local Repository ]( #local-repository )
-* [ 3. Connect Local Repository to GitHub Repository ]( #connect )
+* [ 3. Connect Local Repository to GitHub Repository ]( #connect-local-repository-to-github-repository )
 
 
 
-Prerequisite
+0. Prerequisite
 ==============================
     * Guthub Account
     * git
@@ -25,7 +25,7 @@ git config --global user.email "justinssoh@gmail.com"
 ```
 
 
-Online Repository
+1. Online Repository
 ==============================
 ## New test Repo on github.com
 ```
@@ -42,15 +42,15 @@ https://github.com/justinssoh/test
 
 
 
-Local Repository
+1. Local Repository
 ==============================
 ## Local Directory
     * Overview
-/media/justin/TOSHIBA EXT/jWORK/GIT
 ```
+# Directory Tree
 .
 └── test
-    └── README.md       # This REAME.md
+    └── README.md    
 ```
 
     * init
@@ -69,20 +69,20 @@ git add README.md
 ```
 
     * commit
-    ```
-    git commit -m "Add README.md"
-    ```
+```
+git commit -m "Add README.md"
+```
 
 
 
-Connect Local Repository to GitHub Repository
+1. Connect Local Repository to GitHub Repository
 ==================================================
-# 원격 저장소의 이름(별명)을 각각 origin , memo 지정한다.
-❯ git remote add origin https://github.com/wayhome25/gitfth.git
-❯ git remote add memo https://github.com/wayhome25/memo.git
-❯ git remote
-memo
-origin
+## 원격 저장소의 이름(별명)을 각각 origin , memo 지정한다.
+git remote add origin https://github.com/wayhome25/gitfth.git
+git remote add memo https://github.com/wayhome25/memo.git
+git remote
+
+
 ```
 git remote add origin https://github.com/justinssoh/test
 
