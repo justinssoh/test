@@ -1,15 +1,14 @@
 Test Repo
 ==================================================
 **Table of Contents**
-* [ 1. Prerequisite ]( #prerequisite )
+* [ 0. Prerequisite ]( #prerequisite )
     - Github Accout
     - git
     - Set up Git
 * [ 1. Online Repository ]( #online-repository )
-* [ 1. Local Repository ]( #local-repository )
-* [ 1. Connect Local Repository to GitHub Repository ]( #connect )
+* [ 2. Local Repository ]( #local-repository )
+* [ 3. Connect Local Repository to GitHub Repository ]( #connect )
 
-<br>
 
 
 Prerequisite
@@ -25,7 +24,7 @@ git config --global user.email "justinssoh@gmail.com"
 # ~/.gitconfig
 ```
 
-<br>
+
 Online Repository
 ==============================
 ## New test Repo on github.com
@@ -41,7 +40,6 @@ https://github/new
 ```
 https://github.com/justinssoh/test
 
-<br>
 
 
 Local Repository
@@ -75,7 +73,6 @@ git add README.md
     git commit -m "Add README.md"
     ```
 
-<br>
 
 
 Connect Local Repository to GitHub Repository
