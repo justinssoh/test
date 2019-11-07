@@ -11,7 +11,7 @@ Test Repo
 
 
 
-0. Prerequisite
+Prerequisite
 ==============================
     * Guthub Account
     * git
@@ -37,15 +37,17 @@ https://github/new
     * README.md
     * LICENSE
     * .gitignore
+
+# =>
+https://github.com/justinssoh/test.git
 ```
-https://github.com/justinssoh/test
 
 
 
-1. Local Repository
+Local Repository
 ==============================
 ## Local Directory
-    * Overview
+###  Overview
 ```
 # Directory Tree
 .
@@ -53,7 +55,7 @@ https://github.com/justinssoh/test
     └── README.md    
 ```
 
-    * init
+* init
 ```
 mkdir test
 cd test
@@ -62,20 +64,20 @@ git init
 git status
 ```
 
-    * add
+* add
 ```
 git add README.md
 
 ```
 
-    * commit
+* commit
 ```
 git commit -m "Add README.md"
 ```
 
 
 
-1. Connect Local Repository to GitHub Repository
+Connect Local Repository to GitHub Repository
 ==================================================
 ## 원격 저장소의 이름(별명)을 각각 origin , memo 지정한다.
 git remote add origin https://github.com/wayhome25/gitfth.git
