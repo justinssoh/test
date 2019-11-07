@@ -1,13 +1,13 @@
 Test Repo
 ==================================================
 **Table of Contents**
-* [ 0. Prerequisite ]( # prerequisite )
+* [ 1. Prerequisite ]( #prerequisite )
     - Github Accout
     - git
     - Set up Git
 * [ 1. Online Repository ]( #online-repository )
-* [ 2. Local Repository ]( #local-repository )
-* [ 3. Connect Local Repository to GitHub Repository ]( #connect )
+* [ 1. Local Repository ]( #local-repository )
+* [ 1. Connect Local Repository to GitHub Repository ]( #connect )
 
 <br>
 
