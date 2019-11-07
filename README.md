@@ -98,3 +98,10 @@ git remote -v
 git push -u origin master
 ```
 
+
+
+FAQ
+==============================
+
+* without Github Password 
+
