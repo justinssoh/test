@@ -17,43 +17,44 @@ Prerequisite
 * git
 
     ## Set up Git
-```
-git config --global user.name "justinssoh"
-git config --global user.email "justinssoh@gmail.com"
-
-# ~/.gitconfig
-```
+    ```
+    git config --global user.name "justinssoh"
+    git config --global user.email "justinssoh@gmail.com"
+    
+    # ~/.gitconfig
+    ```
 
 
 Online Repository
 ==============================
-## New test Repo on github.com
-```
-# Logon
-
-https://github/new
-
-# After create new Repo
-    * README.md
-    * LICENSE
-    * .gitignore
-
-# =>
-https://github.com/justinssoh/test.git
-```
+    ## New test Repo on github.com
+    ```
+    # Logon
+    
+    https://github/new
+    
+    # After create new Repo
+        * README.md
+        * LICENSE
+        * .gitignore
+    
+    # =>
+    https://github.com/justinssoh/test.git
+    ```
 
 
 
 Local Repository
 ==============================
 ## Local Directory
-###  Overview
-```
-# Directory Tree
-.
-└── test
-    └── README.md    
-```
+
+    ###  Overview
+    ```
+    # Directory Tree
+    .
+    └── test
+        └── README.md    
+    ```
 
 * init
 ```
@@ -79,10 +80,12 @@ git commit -m "Add README.md"
 
 Connect Local Repository to GitHub Repository
 ==================================================
-## 원격 저장소의 이름(별명)을 각각 origin , memo 지정한다.
+원격 저장소의 이름(별명)을 각각 origin , memo 지정한다.
+```
 git remote add origin https://github.com/wayhome25/gitfth.git
 git remote add memo https://github.com/wayhome25/memo.git
 git remote
+```
 
 
 ```
