@@ -13,10 +13,10 @@ Test Repo
 
 Prerequisite
 ==============================
-    * Guthub Account
-    * git
+* Guthub Account
+* git
 
-## Set up Git
+    ## Set up Git
 ```
 git config --global user.name "justinssoh"
 git config --global user.email "justinssoh@gmail.com"
@@ -25,7 +25,7 @@ git config --global user.email "justinssoh@gmail.com"
 ```
 
 
-1. Online Repository
+Online Repository
 ==============================
 ## New test Repo on github.com
 ```
@@ -86,7 +86,7 @@ git remote
 
 
 ```
-git remote add origin https://github.com/justinssoh/test
+git remote add origin https://github.com/justinssoh/test.git
 
 git remote -v
 
