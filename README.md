@@ -2,14 +2,14 @@ Test Repo
 ==================================================
 **Table of Contents**
 * [ 0. Prerequisite ]( #prerequisite )
-    - Github Accout
-    - git
-    - Set up Git
 * [ 1. Online Repository ]( #online-repository )
 * [ 2. Local Repository ]( #local-repository )
 * [ 3. Connect Local Repository to GitHub Repository ]( #connect-local-repository-to-github-repository )
+    
 
+    ```
 
+    ```
 
 Prerequisite
 ==============================
@@ -97,7 +97,7 @@ git remote -v
 # 처음에 한번만 -u 설정을 하면 앞으로 git push 만 입력해도 origin의 master 브랜치로 push한다
 git push -u origin master
 ```
-
+commit 전에 add를 꼭해야: 선택적으로 파일을 버전에 포함시키기 위해
 
 
 FAQ
