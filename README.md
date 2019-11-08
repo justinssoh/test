@@ -100,6 +100,24 @@ git push -u origin master
 commit 전에 add를 꼭해야: 선택적으로 파일을 버전에 포함시키기 위해
 
 
+
+Get Information about current Master/ Branch
+==============================
+```
+git status
+
+git remote -v
+
+git log
+
+git show
+git show -p [File]
+
+git branch
+```
+
+
+
 FAQ
 ==============================
 
